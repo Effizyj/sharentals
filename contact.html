@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css ">
+  <title>SHARENTALS</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-link" id="navlinks">
+         <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="properties.html">PROPERTIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="Sign-in.html">LOG IN</a></li>
+                
+            </ul>
+        </div>
+     <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <h1> Contact Us</h1>
+     </section>
+     
+     <script>
+         let navlinks = document.getElementById("navlinks");
+         function showMenu() {
+             navlinks.style.right = "0";
+         }
+  
+         function hideMenu() {
+             navlinks.style.right = "-200px";
+         }
+     </script>
+
+<section class="Location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.388393623844!2d7.0299526!3d4.8390333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5ab25b765685057b!2sLoctech%20Training%20Institute!5e0!3m2!1sen!2sng!4v1660983121484!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+  <div class="rows">
+      <div class="contact-col">
+          <div>
+              <a href="#" class="fa fa-home"></a>   
+              <span>
+                  <h5>Etim Okpoyo close, Port-Harcourt</h5>
+                  <p>River state, Nigeria.</p>
+              </span>
+          </div>
+          <div>
+              <a href="#" class="fa fa-phone"></a>   
+              <span>
+                  <h5>+234-70-6977-1655</h5>
+                  <p>Monday-Friday, 9:00AM-5:00PM</p>
+              </span>
+          </div>
+          <div>
+              <a href="#" class="fa solid fa-envelope"></a>   
+              <span>
+                  <h5>info@Sharentals.com</h5>
+                  <p>Email us your query</p>
+              </span>
+          </div>
+      </div>
+      <div class="contact-col">
+          <form action="">
+              <input type="text" placeholder="Enter your name" required>
+              <input type="email" placeholder="Enter email address" required>
+              <input type="text" placeholder="Enter your subject" required>
+              <textarea rows="5" placeholder="Message"required></textarea>
+              <button type="submit" class="hero">Send Message</button>
+          </form>
+      </div>
+
+  </div>
+</section>
+
+   <section class="mini">
+     <div class="flex">
+     <div class="min-footer">
+      <h2>Want To Become A Sharentals Agent?</h2>
+      <p>Let's help you rent your properties with ease.</p>
+     </div>
+     <div class="want">
+      <button class="btn"><a href="Sign up.html">Sign Up</a></button>
+     </div>
+    </div>
+   </section>
+
+   <section class="footer">
+     <div class="footer-container">
+       <h2>Sharentals </h2>   
+     <div class="footer-box">
+       <h3>Quick Links</h3>
+       <a href="#">Agency</a>
+       <a href="#">Building</a>
+       <a href="#">Rates</a>
+     </div>
+
+     <div class="footer-box">
+       <h3>Locations</h3>
+       <a href="#">Port Harcourt</a>
+       <a href="#">Lagos</a>
+       <a href="#">Abuja</a>
+       <a href="#">Enugu</a>
+       <a href="#">Owerri</a>
+       <a href="#">Asaba</a>
+     </div>
+
+     <div class="footer-box">
+      <h3>POPULAR SEARCHES</h3>
+      <a href="#">Pet Friendly Apartments</a> 
+      <a href="#">Apartments Near Malls</a>
+      <a href="#">Staten Island Apartments</a>
+      <a href="#">Apartments in The Bronx</a>
+      <a href="#">Brooklyn Apartments</a>
+      <a href="#">Jersey City Apartments</a>
+      <a href="#">Long Island City Apartments</a>
+      <a href="#">Utilities-Included Apartments Near Me</a>
+      <a href="#">Charlotte Houses for Rent</a>
+     </div>
+
+     <div class="footer-box">
+      <h3>ADVERTISERS</h3>
+      <a href=""> Advertise</a>
+      <a href=""> Add a Property</a>
+      <a href=""> Digital Feeds Program</a>
+      <a href=""> Customer Portal</a>
+      <a href="">  Community Voice</a>
+      <a href=""> Rental Manager</a>
+      <a href=""> Rental Manager Resources</a>
+     </div>
+
+     <div class="footer-box">
+      <h3>Contacts</h3>
+      <a href="#">+234 (0)7069771655</a>
+      <a href="#">Sharentals@gmail.com</a> <br>
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+   </section>
+</body>
+</html>
